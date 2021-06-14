@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --beige1: #E1D0B7;
+    --beige2: #d0b693;
+    --brown: #241B0F;
+    --brown2: #6B532E;
+    --brown3: #37322F;
+}
+body{
+    background: var(--beige2);
+}
+
+h1, h3, h2{
+    font-family: 'Cinzel', serif;
+}
+h4{
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+}
+h5, p,a,span{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size:100px;
+    color: var(--brown);
+}
+h2{
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: 64px;
+    /* margin-left: 40px; */
+    margin: 0 auto;
+    max-width: 790px;
+    line-height: 0.5;
+}
+h3{
+    font-weight: 700;
+    color:white;
+    font-size: 18px;
+    background: var(--brown);
+    
+}
+h3 ul{
+    padding: 0 28px;
+}
+h5{
+    font-weight: 700;
+}
+p,a{
+    font-weight: 400;
+}
+.border-brown{
+   border: 1px solid #8F6E3D;
+
+}
+.border-right-brown{
+    border-right: 2px solid var(--brown3)
+}
+.border-beige{
+    border-right: 2px solid var(--beige1)
+}
+.font-18{
+    font-size: 18px;
+}
+.top-bar{
+    background: var(--beige1);
+}
+
+.info-title{
+    background: var(--beige1);
+}
+.mw{
+    max-width: 1100px;
+}
+.fecha{
+    background: var(--brown3);
+    color: rgb(253, 238, 238);
+    font-size:13px;
+    padding: 8px 20px;
+    margin-bottom: 15px;
+}
+.contacto p, .contacto h5, a{
+    font-size:12px;
+}
+.contacto h5{
+    color: var(--brown2)
+    
+}
+.contacto p,a{
+    color: var(--brown3)
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--brown)
+}
+
+.experiencia h4{
+    color: #B3894C;
+    background: var(--beige1);
+    font-size:22px;
+}
+.experiencia span{
+    float:right;
+    font-size:12px;
+ 
+}
+.experiencia h5, .experiencia p{
+    font-size:15px;
+}
+
+footer{
+    background: var(--beige1)
+}
+footer p{
+    font-size:12px;
+}
+
+@media (max-width: 768px){
+    .border-beige{
+        border:none;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size:30px;
+        letter-spacing: 30px;
+    }
+
+    .experiencia h4{
+        font-size:15px;
+    }
+    .experiencia span{
+        font-size:10px;
+    }
+}
+
+@media (max-width: 668px){
+   img{
+    max-width:100%;
+   }
+   h1{
+       
+       font-size:35px;
+   }
+   h2{
+       font-size:25px;
+       letter-spacing: 12px;
+   }
+   .nombre{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .nombre h2{
+       padding-bottom:10px;
+   }
+   .border-bottom-brown{
+       border-bottom: 5px solid var(--brown3); 
+   }
+   .border-bottom-beige{
+       border-bottom: 2px solid var(--beige1);
+
+   }
+   .border-right-brown{
+       border:none;
+   }
+   .logo-info{
+       border-bottom: 3px solid var(--brown3);
+       max-width: 300px;
+       margin: 0 auto;
+   }
+}
